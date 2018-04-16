@@ -1,0 +1,447 @@
+@font-face {
+        font-family: fontR;
+        src: url('../fonts/GESSTextLight-Light.eot');
+        src: url('../fonts/GESSTextLight-Light.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/GESSTextLight-Light.woff') format('woff'),
+            url('../fonts/GESSTextLight-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: fontB;
+        src: url('../fonts/GESSTextBold-Bold.eot');
+        src: url('../fonts/GESSTextBold-Bold.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/GESSTextBold-Bold.woff') format('woff'),
+            url('../fonts/GESSTextBold-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+body {
+        font-family: fontR;
+        background-color: #eceff1;
+        direction: rtl;
+}
+
+ul {
+        list-style: none;
+}
+
+a {
+        text-decoration: none;
+}
+
+
+/* Start header-up */
+
+.header-up {
+        text-align: center;
+        background-color: #011627;
+}
+
+.header-up ul.icons {
+        padding-top: 4%;
+        text-align: right;
+}
+
+.header-up ul.icons li {
+        display: inline-block;
+        padding: 1% 2%;
+}
+
+.header-up ul.icons li a {
+        font-size: 18px;
+}
+
+.header-up ul.icons li a.search {
+        color: #fff;
+}
+
+.header-up ul.icons li a.google-plus {
+        color: #d66a5e;
+}
+
+.header-up ul.icons li a.facebook {
+        color: #5d7ab6;
+}
+
+.header-up ul.icons li a.twitter {
+        color: #00acee;
+}
+
+.header-up ul.menu {
+        padding-top: 5px;
+        text-align: left;
+}
+
+.header-up ul.menu li {
+        display: inline-block;
+        padding: 1% 4% 1% 0;
+}
+
+.header-up ul.menu li a {
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+}
+.header-up ul.menu li a:hover {
+    color: #ff9f1c;
+}
+.header-up ul.menu li a i {
+        margin-left: 8px;
+        color: #ff9f1c;
+}
+
+
+/* Start header-up */
+
+
+/* ######################### */
+
+
+/* start navbar */
+
+.navbar {
+       
+        margin-bottom: 0;
+        text-align: center;
+        border: 0;
+        border-radius: 0;
+        background-color: #2ec4b6;
+}
+
+
+
+.navbar-nav {
+        width: 85%
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+        color: white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        padding: 0;
+}
+
+.active-background {
+        border: 0;
+        background: #ff9f1c;
+        float: right;
+}
+
+.active-background a img {
+        float: none;
+}
+
+.navbar-nav img {
+        max-height: 40px;
+        vertical-align: bottom;
+        
+}
+
+.navbar-header {
+        background-color: #ff9f1c;
+        width: 15%;
+        height: 81px;
+}
+.navbar-header a {
+        color: white!important;
+        font-size: 45px;
+}
+
+.navbar-header .navbar-brand img {
+        max-height: 50px;
+        display: inline-block;
+}
+
+.navbar-nav>li:first-child {
+        width: 14% !important;
+}
+
+
+.navbar-nav>li {
+        padding: 0px 10px;
+        border-right: 2px solid #fff;
+        /* width: 25%; */
+}
+
+.navbar-nav>li:hover {
+        background: #ff9f1c;
+}
+
+.active_text {
+        font-size: 39px;
+        line-height: 123%;
+}
+
+.navbar-default .navbar-nav>li>a {
+        font-size: 20px;
+        color: #fff;
+        width: 100%;
+        padding: 20px 1px;
+        text-align: right;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+        display: inline-block;
+        color: #fff;
+}
+
+.dropdown-menu li a:hover {
+        background: none;
+}
+
+.navbar-default .navbar-nav>li>a span {
+    color: #145e62;
+    font-size:16px;
+    font-family: fontB;
+}
+
+.navbar-nav>li>.dropdown-menu {
+        width: 100%;
+        border: 0;
+        border-bottom: 8px solid #011627;
+        background-color: #ff9f1c;
+}
+
+.dropdown-menu>li>a {
+        font-size: 16px;
+        color: #fff;
+}
+
+.dropdown-menu>li>a:hover {
+        color: #ffff56;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        color: #fff;
+        background: none;
+}
+
+
+/* End navbar */
+
+
+/* Start Slider */
+
+.fa-angle-left:before {
+        margin-left: 11px;
+}
+
+.carousel-indicators li {
+        border: none;
+        background-color: #011627;
+}
+
+.carousel-indicators .active {
+        background-color: #e71d36;
+}
+
+.glyphicon {
+        color: #38434a;
+}
+
+a:hover .glyphicon {
+        color: #dc4252;
+}
+
+
+/* End slider */
+
+
+/* ######################### */
+
+.enviroment {
+        padding: 20px 0;
+}
+
+.enviroment .services {
+        color: #fff;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: top right;
+        padding: 13% 1%;
+}
+
+.enviroment .background1 {
+        background-color: #2ec4b6;
+        background-image: url(../images/background3.png);
+}
+
+.enviroment .background2 {
+        background-color: #e71d36;
+        background-image: url(../images/background2.png);
+}
+
+.enviroment .background3 {
+        background-color: #011627;
+        background-image: url(../images/background1.png);
+}
+
+.enviroment .services div {
+        padding: 25% 20% 0;
+}
+
+.enviroment .services h2 {
+        font-size: 38px;
+        
+        margin: 0;
+}
+
+.background1 span, .background2 span {
+        color: #011627;
+}
+
+.background3 span {
+        color: #2ec4b6;
+}
+
+.enviroment .services p {
+        font-size: 18px;
+        
+        font-family: fontR;
+}
+
+.enviroment .services i {
+        font-size: 25px;
+        position: absolute;
+        left: 50%;
+}
+
+.enviroment .services i:hover {
+        color: #ff9f1c;
+}
+
+
+/* ############################### */
+
+.color_green {
+        border-top: 10px solid #2ec4b6;
+}
+
+.color_red {
+        border-top: 10px solid #e71d36;
+}
+
+.color_dark {
+        border-top: 10px solid #011627;
+}
+
+.enviroment_2 .services {
+        height: 300px;
+        text-align: center;
+        background-color: #fff;
+}
+
+.enviroment_2 .services h3:first-child {
+        padding: 3% 0;
+        color: #e71d36;
+}
+
+.enviroment_2 .services h3:last-child {
+        padding-top: 3%;
+        color: #011627;
+}
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+.footer {
+        margin-top: 2%;
+        padding: 2%;
+        background-color: #011627;
+}
+
+.footer .row div ul {
+        text-align: left;
+}
+
+.footer .col-md-2 span {
+        font-size: 30px;
+        
+        margin: 3% 10% 0 0;
+        color: #fff;
+        position: relative;
+        top: 5px;
+}
+
+.footer .col-md-3 {
+        text-align: center;
+}
+
+.footer_info {
+        position: relative;
+        top: 8px;
+}
+
+.footer ul {
+        margin-top: 15px;
+}
+
+.footer ul li {
+        display: inline-block;
+        padding-left: 20px;
+}
+
+.footer ul li a {
+        font-size: 15px;
+        
+        text-decoration: none;
+        color: #fff;
+}
+
+.footer ul li a:hover {
+        color: #ff9f1c;
+}
+
+
+/* ############################################# */
+
+.footer_2 {
+        padding: 2%;
+}
+
+.footer_2 ul {
+        margin-top: 15px;
+        text-align: right;
+        font-family: fontB;
+}
+
+.footer_2 ul li {
+        display: inline-block;
+        padding-right: 20px;
+}
+
+.footer_2 ul li a {
+        font-size: 15px;
+        
+        text-decoration: none;
+        color: #ff9f1c;
+}
+
+.footer_2 ul li a:hover {
+        color: #011627;
+}
+
+.footer_2 p {
+        font-size: 17px;
+      
+        color: #969793;
+       text-align: center;
+}
+
+
+/**
+ * ******************************* Beshoy Edit Show Hide 14-11-2017
+ * **********************************
+ */
+
+.toggleDiv {
+        display: none;
+}
+
+.enviroment .services a {
+        color: #fff;
+}
